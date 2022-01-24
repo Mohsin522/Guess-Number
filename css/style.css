@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main-div{
+width: 100%;
+
+text-align: center;
+
+}
+.game-div{
+width: 35%;
+padding: 30px;
+border: 2px solid rgb(0, 128, 0);
+margin: 30px auto;
+border-radius: 12px;
+}
+.heading-div P{
+    margin: 0px !important;
+    padding: 0px !important;
+    font-size: 80px !important;
+    font-weight: bolder;
+    color: rgb(0, 128, 0);
+}
+.input-div{
+    padding: 10px 20px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.form-control{
+    border-radius: 12px !important;
+}
+.form-control:focus{
+    border-color: rgb(0, 128, 0);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 128 0 / 25%) !important;
+
+}
+.result-div-outer{
+    width: 100%;
+    padding: 10px 30px;
+}
+.result-div-inner{
+    margin: auto;
+    width: 80%;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.won{
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.high{
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.low{
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+.result-div-inner p{
+    margin: 0px;
+    font-size: 18px;
+    padding: 0px;
+}
+.button-div{
+    padding: 20px ;
+}
+.mybtn{
+    color: white;
+    background-color: #277da1;
+}
+.mybtn:hover{
+    color: white !important;
+    text-decoration: none;
+}
+
+
+
+.guess-div ul{
+    list-style-type: none;
+
+
+}
+.guess-div ul li{
+   
+    text-align: center;
+   
+    width: 80%;
+    border-radius: 10px;
+    border: 3px solid rgb(0, 128, 0);
+    padding: 10px;
+    margin: 10px auto;
+    color: gray;
+    font-size: 24px;
+}
